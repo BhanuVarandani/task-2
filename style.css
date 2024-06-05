@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(158, 11, 11);
+    position: relative;
+}
+.box1{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+    border-radius: 33% 1%;
+    position: absolute;
+    right: 0;
+}
+.box2{
+    background-color: white;
+    height: 85%;
+    width: 25%;
+    position: relative;
+    position: absolute;
+    display: flex;
+    transform: translate(-50,-50);
+    margin-top: 5%;
+    left: 30%;
+}
+.box3{
+    background-color: rgb(7, 7, 196);
+    height: 40%;
+    width: 90%;
+    position: relative ;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.box3>.img1{
+    position: absolute;
+    height: 15%;
+    margin-top: 20%;
+    /* width: 10%; */
+}
+.box3>.img2{
+    position: absolute;
+    height: 18%;
+    bottom: 3%;
+    right: 3%;
+}
+.box3>h1{
+    position: absolute;
+    right: 2%;
+    color: white;
+}
+.box3>h2{
+    position: absolute;
+    margin-top: 11%;
+    font-weight: 50;
+    font-size: 25px;
+    font-family: serif;
+    right: 2%;
+    color: white;
+}
+.box3>p{
+    margin-top: 40%;
+    color: white;
+    font-size: 25px;
+    
+    padding-left: 0;
+
+}
+.box3>h5{
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 15px;
+    font-family: serif;
+}
+.box3>h4{
+    margin-top: 10%;
+    color: white;
+}
+.box2>h3{
+    position: absolute;
+    margin-top: 80%;
+    left: 4%;
+    color: black;
+    
+}
+.box2>h6{
+    position: absolute;
+    margin-top: 90%;
+    left: 4%;
+    color: black;
+}
+.box2>.name{
+    position: absolute;
+    margin-top: 95%;
+    left: 4%;
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.box2>.short{
+    position: absolute;
+    margin-top: 105%;
+    left: 4%;
+    color: black;
+    font-size: 10px;
+}
+.box2>.password{
+    position: absolute;
+    margin-top: 108%;
+    left: 4%;
+    color: black;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+.box2>.date{
+    position: absolute;
+    margin-top: 118%;
+    left: 4%;
+    color: black;
+    font-size: 10px;
+}
+.box2>.number{
+    position: absolute;
+    margin-top: 123%;
+    left: 4%;
+    color: black;
+    font-size: 20px;
+    font-family: serif;
+    border-bottom: 1px solid black;
+    
+}
+.box2>.button1{
+    position: absolute;
+    margin-top: 150%;
+    padding: 7px 120px;
+    left: 4%;
+    border-radius: 15px;
+    background-color:rgb(63, 63, 213);
+    border: none;
+    
+
+}
+.box3>i{
+    position: absolute;
+    display: flex;
+    transform: rotate(90deg);
+    margin-top: 21%;
+    font-size: 30px;
+    left: 5%;
+    color: white;
+    height: 30%;
+    width: 20%;
+}
+
+
+
+
+
